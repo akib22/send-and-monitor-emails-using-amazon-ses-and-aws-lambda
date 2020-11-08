@@ -1,0 +1,33 @@
+{
+  "name": "send-and-monitor-emails-using-amazon-ses-and-aws-lambda",
+  "version": "1.0.0",
+  "description": "\"Send and Monitor (track delivery, open, click activity) emails using Amazon SES and AWS Lambda\"",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akib22/send-and-monitor-emails-using-amazon-ses-and-aws-lambda.git"
+  },
+  "keywords": [
+    "AWS",
+    "AWS SES",
+    "AWS Lambda"
+  ],
+  "author": "Akibur Rahman Akib",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akib22/send-and-monitor-emails-using-amazon-ses-and-aws-lambda/issues"
+  },
+  "homepage": "https://github.com/akib22/send-and-monitor-emails-using-amazon-ses-and-aws-lambda#readme",
+  "dependencies": {
+    "aws-sdk": "^2.787.0",
+    "dotenv": "^8.2.0"
+  },
+  "devDependencies": {
+    "eslint": "^7.13.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1"
+  }
+}
